@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/question/main",
+    "pages/lesson/main",
+    "pages/mine/main",
+    "pages/learn/main",
+    "pages/myLesson/main",
+    "pages/watchLesson/main",
+    "pages/webView/main"
+  ],
+  "tabBar":{
+    "color":"#959394",
+    "selectedColor":"#009eef",
+    "borderStyle":"black",
+    "backgroundColor":"#fff",
+    "list":[
+      {
+        "pagePath":"pages/learn/main",
+        "text":"学习",
+        "iconPath":"/static/imgs/xue.jpg",
+        "selectedIconPath":"/static/imgs/xue_s.jpg"
+      },
+      {
+        "pagePath":"pages/lesson/main",
+        "text":"课程",
+        "iconPath":"/static/imgs/ke.jpg",
+        "selectedIconPath":"/static/imgs/ke_s.jpg"
+      },
+      {
+        "pagePath":"pages/mine/main",
+        "text":"我的",
+        "iconPath":"/static/imgs/me.jpg",
+        "selectedIconPath":"/static/imgs/me_s.jpg"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "TS在线",
+    "navigationBarTextStyle": "black"
+  }
+}
